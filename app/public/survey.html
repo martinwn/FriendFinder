@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FriendFinder</title>
+    <link rel="icon" type="image/ico" href="./images/flogo-RGB-HEX-Blk-58.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+</head>
+<body>
+
+    <div id="survey">
+
+        <header>
+            <h1>Survey Questions</h1>
+            <a href="/"> <img src="./images/baseline-home-24px.svg" alt="link to homepage"> </a>
+        </header>
+        <hr>
+        <section>
+            <h4>About You</h4>
+            <form action="/my-handling-form-page" method="post">
+                <div class="top-input">
+                    <label for="name">Name (Required)</label>
+                    <input type="text" id="name" class="option">
+                </div>
+                <div class="top-input">
+                    <label for="photo">Link to Photo (Required)</label>
+                    <input type="text" id="photo" class="option">
+                </div>
+                <hr>
+                <div class="question-group">
+                    <h3>Question 1</h3>
+                    <p class="question">Am not interested in other people's problems.</p>
+                    <select id="question-1" class="option">
+                        <option value="" disabled selected hidden>Select your option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="question-group">
+                    <h3>Question 2</h3>
+                    <p class="question">Make friends easily.</p>
+                    <select id="question-2" class="option">
+                        <option value="" disabled selected hidden>Select your option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="question-group">
+                    <h3>Question 3</h3>
+                    <p class="question">Respect authority.</p>
+                    <select id="question-3" class="option">
+                        <option value="" disabled selected hidden>Select your option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="question-group">
+                    <h3>Question 4</h3>
+                    <p class="question">Leave my belongings around.</p>
+                    <select id="question-4" class="option">
+                        <option value="" disabled selected hidden>Select your option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="question-group">
+                    <h3>Question 5</h3>
+                    <p class="question">Take charge.</p>
+                    <select id="question-5" class="option">
+                        <option value="" disabled selected hidden>Select your option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="question-group">
+                    <h3>Question 6</h3>
+                    <p class="question">Enjoy the beauty of nature.</p>
+                    <select id="question-6" class="option">
+                        <option value="" disabled selected hidden>Select your option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="question-group">
+                    <h3>Question 7</h3>
+                    <p class="question">Feel others' emotions.</p>
+                    <select id="question-7" class="option">
+                        <option value="" disabled selected hidden>Select your option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="question-group">
+                    <h3>Question 8</h3>
+                    <p class="question">Am hard to get to know.</p>
+                    <select id="question-8" class="option">
+                        <option value="" disabled selected hidden>Select your option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="question-group">
+                    <h3>Question 9</h3>
+                    <p class="question">Have difficulty understanding abstract ideas.</p>
+                    <select id="question-9" class="option">
+                        <option value="" disabled selected hidden>Select your option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="question-group">
+                    <h3>Question 10</h3>
+                    <p class="question">Rarely get irritated.</p>
+                    <select id="question-10" class="option">
+                        <option value="" disabled selected hidden>Select your option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" id="submit-button">
+                </div>
+            </form>
+        </section>
+
+        <hr>
+
+        <div id="page-mask"></div>
+
+        <section id="success-modal">
+
+            <img id="close-icon" src="./images/round-close-24px.svg" alt="close">
+            <h1>Best Match</h1>
+            <hr>
+            <div id="best-match-box">
+                <p id="match-name"></p>
+                <img src="" alt="Match Name" id="match-photo">
+            </div>
+            <hr>
+            <div id="close-button">
+                <span>Close</span>
+            </div>
+            
+        </section>
+
+        <section id="failure-modal">
+
+            <img id="close-icon" src="./images/round-close-24px.svg" alt="close">
+            <h1>Hey There</h1>
+            <hr>
+            <p>All fields must be entered!</p>
+            
+        </section>
+
+        <footer>
+            <a href="/api/friends">API Friends List</a>
+            <a href="https://github.com/martinwn/FriendFinder/tree/master">GitHub Repo</a>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+        $("#submit-button").on("click", function() {
+
+            event.preventDefault();
+            
+
+            // Form Validation
+            function validateForm () {
+                let isValid = true;
+                $(".option").each(function() {
+                    if ($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+                return isValid;
+            };
+
+            if (validateForm()) {
+
+                let newFriend = {
+                    name: $("#name").val().trim(),
+                    photo: $("#photo").val().trim(),
+                    scores: [
+                        $("#question-1").val(),
+                        $("#question-2").val(),
+                        $("#question-3").val(),
+                        $("#question-4").val(),
+                        $("#question-5").val(),
+                        $("#question-6").val(),
+                        $("#question-7").val(),
+                        $("#question-8").val(),
+                        $("#question-9").val(),
+                        $("#question-10").val()
+                    ]
+                };
+                
+                let currentURL = window.location.origin;
+
+                $.post(currentURL + "/api/friends", newFriend, function(data) {
+
+                    console.log(data);
+
+                    $("#match-name").text(data.name);
+                    $("#match-photo").attr("src", data.photo);
+
+                    $("#page-mask").show();
+                    $("#success-modal").show();
+                    
+                    $(".class").each(function() {
+                        $(this).val("");
+                    });
+
+                });
+
+            } else {
+
+                $("#page-mask").show();
+                $("#failure-modal").show();
+
+            };
+
+        });
+        
+// Show/Hide Modal/Mask
+
+        $(document).on("click", "#close-icon", function() {
+            $("#page-mask").hide();
+            $("#success-modal").hide(); 
+            $("#failure-modal").hide();          
+        });
+
+        $(document).on("click", "#close-button", function() {
+            $("#page-mask").hide();
+            $("#success-modal").hide();           
+        });
+ 
+    </script>
+</body>
+</html>
