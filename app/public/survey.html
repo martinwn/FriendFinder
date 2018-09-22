@@ -202,7 +202,7 @@
             // Form Validation
             function validateForm () {
                 let isValid = true;
-                $(".option").each(function() {
+                $(".field").each(function() {
                     if ($(this).val() === "") {
                         isValid = false;
                     }
@@ -212,26 +212,14 @@
 
             if (validateForm()) {
 
-                let newFriend = {
-                    name: $("#name").val().trim(),
-                    photo: $("#photo").val().trim(),
-                    scores: [
-                        $("#question-1").val(),
-                        $("#question-2").val(),
-                        $("#question-3").val(),
-                        $("#question-4").val(),
-                        $("#question-5").val(),
-                        $("#question-6").val(),
-                        $("#question-7").val(),
-                        $("#question-8").val(),
-                        $("#question-9").val(),
-                        $("#question-10").val()
-                    ]
+                let user = {
+                    email: $("#name").val().trim(),
+                    password: $("#photo").val().trim(),
                 };
                 
                 let currentURL = window.location.origin;
 
-                $.post(currentURL + "/api/friends", newFriend, function(data) {
+                $.post(currentURL + "/signin", newFriend, function(data) {
 
                     console.log(data);
 
